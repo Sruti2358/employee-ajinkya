@@ -11,7 +11,7 @@ def index():
 def model_prediction():
     data = request.form 
 
-    model = pickle.load(open(r'/Users/sruti/Downloads/employee-ajinkya/logistic_model.pkl','rb'))
+    model = pickle.load(open(r'logistic_model.pkl','rb'))
     
     user_data = [[float(data['age']),
                   float(data['length_of_service']),
