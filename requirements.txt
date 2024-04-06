@@ -1,6 +1,4 @@
 Flask
-Jinja2
 numpy
 pandas
-python-dateutil
 scikit-learn
